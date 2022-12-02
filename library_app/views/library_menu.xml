@@ -1,0 +1,24 @@
+<odoo>
+
+	Library App Menu
+	<menuitem id="menu_library" name="Library"
+		web_icon="library_app,static/description/icon.png" />
+
+	Action to open the Book list
+	<record id="action_library_book" model="ir.actions.act_window">
+		<field name="name">Library Books</field>
+		<field name="res_model">product.template</field>
+		<field name="view_mode">tree,form</field>
+	</record>
+
+	<record id="action_library_book_product" model="ir.actions.act_window">
+		<field name="name">Library Books Product</field>
+		<field name="res_model">product.template</field>
+		<field name="view_mode">kanban,tree,form</field>
+		<field name="domain">[('is_book', '=', True)]</field>
+	</record>
+
+	Menu item to open the Book list
+	<menuitem id="menu_library_book_product" name="Books"
+		action="action_library_book_product" parent="menu_library" />
+</odoo>

@@ -1,0 +1,20 @@
+{
+    'name': 'Library Management',
+    'summary': 'Manage library catalog and book lending.',
+    'author': 'Kimloan',
+    'license': 'AGPL-3',
+    'website': 'https://github.com/',
+    'version': '15.0.1.0.0',
+    'category': 'Services/Library',
+    'depends': ['product'],
+    'demo': ['data/book_demo.xml'],
+    'data': [
+        'security/library_security.xml',
+        'security/ir.model.access.csv',
+        'views/product_template_view.xml',
+        'views/book_list_template.xml',
+        'views/library_menu.xml',
+        ],
+    'application': True,
+    'uninstall_hook': '_uninstall_hook',
+}

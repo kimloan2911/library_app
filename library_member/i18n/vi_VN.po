@@ -1,0 +1,1235 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* library_member
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-15 15:39+0000\n"
+"PO-Revision-Date: 2022-11-15 15:39+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__meeting_count
+msgid "# Meetings"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__supplier_invoice_count
+msgid "# Vendor Bills"
+msgstr "# Hóa đơn Nhà cung cấp"
+
+#. module: library_member
+#: model_terms:ir.ui.view,arch_db:library_member.book_list_extended
+msgid "<b>(Not Available)</b>"
+msgstr "<b>(Không có sẵn)</b>"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_account_payable_id
+msgid "Account Payable"
+msgstr "Tài khoản thanh toán"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_account_receivable_id
+msgid "Account Receivable"
+msgstr "Tài khoản nhận"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_needaction
+msgid "Action Needed"
+msgstr "Hành động cần"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__active
+msgid "Active"
+msgstr "Hoạt động"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__active_lang_count
+msgid "Active Lang Count"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_ids
+msgid "Activities"
+msgstr "Hoạt động"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_state
+msgid "Activity State"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_type_icon
+msgid "Activity Type Icon"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__additional_info
+msgid "Additional info"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__type
+msgid "Address Type"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__lang
+msgid ""
+"All the emails and documents sent to this contact will be translated in this"
+" language."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_attachment_count
+msgid "Attachment Count"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__receipt_reminder_email
+msgid ""
+"Automatically send a confirmation email to the vendor X days before the "
+"expected receipt date, asking him to confirm the exact date."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__avatar_1920
+msgid "Avatar"
+msgstr "Hình ảnh"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__avatar_1024
+msgid "Avatar 1024"
+msgstr "Hình ảnh 1024"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__avatar_128
+msgid "Avatar 128"
+msgstr "Hình ảnh 128"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__avatar_256
+msgid "Avatar 256"
+msgstr "Hình ảnh 256"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__avatar_512
+msgid "Avatar 512"
+msgstr "Hình ảnh 512"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__bank_account_count
+msgid "Bank"
+msgstr "Ngân hàng"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__bank_ids
+msgid "Banks"
+msgstr "Ngân hàng"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__barcode
+msgid "Barcode"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__dob
+msgid "Birth Day"
+msgstr "Ngày sinh"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__is_blacklisted
+msgid "Blacklist"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__mobile_blacklisted
+msgid "Blacklisted Phone Is Mobile"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__phone_blacklisted
+msgid "Blacklisted Phone is Phone"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model,name:library_member.model_library_book
+msgid "Book"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_bounce
+msgid "Bounce"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__card_number
+msgid "Card Number"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__channel_ids
+msgid "Channels"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__is_company
+msgid "Check if the contact is a company, otherwise it is a person"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__employee
+msgid "Check this box if this contact is an Employee."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__city
+msgid "City"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__color
+msgid "Color Index"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__comment
+msgid "Comment"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__commercial_partner_id
+msgid "Commercial Entity"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__ref_company_ids
+msgid "Companies that refers to partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__company_id
+msgid "Company"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__company_name
+msgid "Company Name"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__commercial_company_name
+msgid "Company Name Entity"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__company_type
+msgid "Company Type"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__partner_gid
+msgid "Company database ID"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__contact_address
+msgid "Complete Address"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__child_ids
+msgid "Contact"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_bounce
+msgid "Counter of the number of bounced emails for this contact"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__country_id
+msgid "Country"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__country_code
+msgid "Country Code"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__credit_limit
+msgid "Credit Limit"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__currency_id
+msgid "Currency"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_stock_customer
+msgid "Customer Location"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_payment_term_id
+msgid "Customer Payment Terms"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__customer_rank
+msgid "Customer Rank"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__date
+msgid "Date"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__date_of_establishment
+msgid "Date of Establishment"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__dyob
+msgid "Day of Birth"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__reminder_date_before_receipt
+msgid "Days Before Receipt"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__trust
+msgid "Degree of trust you have in this debtor"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__partner_share
+msgid ""
+"Either customer (not a user), either shared user. Indicated the current "
+"partner is a customer without access or with a limited access created for "
+"sharing data."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__email
+msgid "Email"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__employee
+msgid "Employee"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__state_id
+msgid "Fed. State"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__phone_sanitized
+msgid ""
+"Field used to store sanitized phone number. Helps speeding up searches and "
+"comparisons."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_account_position_id
+msgid "Fiscal Position"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_follower_ids
+msgid "Followers"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_partner_ids
+msgid "Followers (Partners)"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__email_formatted
+msgid "Format email address \"Name <email@domain>\""
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__email_formatted
+msgid "Formatted Email"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__partner_latitude
+msgid "Geo Latitude"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__partner_longitude
+msgid "Geo Longitude"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__date_localization
+msgid "Geolocation Date"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__has_message
+msgid "Has Message"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__has_unreconciled_entries
+msgid "Has Unreconciled Entries"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__hotline
+msgid "Hotline"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__id
+msgid "ID"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__im_status
+msgid "IM Status"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_book__isbn
+msgid "ISBN"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_exception_icon
+msgid "Icon"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_needaction
+#: model:ir.model.fields,help:library_member.field_library_member__message_unread
+msgid "If checked, new messages require your attention."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_has_error
+#: model:ir.model.fields,help:library_member.field_library_member__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__team_id
+msgid ""
+"If set, this Sales Team will be used for sales and assignments related to "
+"this partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__is_blacklisted
+msgid ""
+"If the email address is on the blacklist, the contact won't receive mass "
+"mailing anymore, from any list"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__phone_sanitized_blacklisted
+msgid ""
+"If the sanitized phone number is on the blacklist, the contact won't receive"
+" mass mailing sms anymore, from any list"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__image_1920
+msgid "Image"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__image_1024
+msgid "Image 1024"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__image_128
+msgid "Image 128"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__image_256
+msgid "Image 256"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__image_512
+msgid "Image 512"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__mobile_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a mobile number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__phone_blacklisted
+msgid ""
+"Indicates if a blacklisted sanitized phone number is a phone number. Helps "
+"distinguish which number is blacklisted             when there is both a "
+"mobile and phone field in a model."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__industry_id
+msgid "Industry"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__invoice_warn
+msgid "Invoice"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__type
+msgid ""
+"Invoice & Delivery addresses are used in sales orders. Private addresses are"
+" only visible by authorized users."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__invoice_ids
+msgid "Invoices"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_book__is_available
+msgid "Is Available?"
+msgstr "Có sẵn"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_is_follower
+msgid "Is Follower"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__is_company
+msgid "Is a Company"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__function
+msgid "Job Position"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__journal_item_count
+msgid "Journal Items"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__lang
+msgid "Language"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__calendar_last_notif_ack
+msgid "Last notification marked as read from base Calendar"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__last_time_entries_checked
+msgid ""
+"Last time the invoices & payments matching was performed for this partner. "
+"It is set either if there's not at least an unreconciled debit and an "
+"unreconciled credit or if you click the \"Done\" button."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__last_time_entries_checked
+msgid "Latest Invoices & Payments Matching Date"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model,name:library_member.model_library_member
+msgid "Library Member"
+msgstr "Thành viên Thư viện"
+
+#. module: library_member
+#: model:ir.actions.act_window,name:library_member.action_library_member
+msgid "Library Members"
+msgstr "Thành viên Thư viện"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__lot_count
+msgid "Lot Count"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__lot_ids
+msgid "Lot/Seri"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__mapping_address
+msgid "Mapping Address"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__meeting_ids
+msgid "Meetings"
+msgstr ""
+
+#. module: library_member
+#: model:ir.ui.menu,name:library_member.menu_library_member
+msgid "Members"
+msgstr "Thành viên"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_has_error
+msgid "Message Delivery error"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__invoice_warn_msg
+msgid "Message for Invoice"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__purchase_warn_msg
+msgid "Message for Purchase Order"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__picking_warn_msg
+msgid "Message for Stock Picking"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_ids
+msgid "Messages"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__mobile
+msgid "Mobile"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__mobile_token_ids
+msgid "Mobile Tokens"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__mob
+msgid "Month of Birth"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__name
+msgid "Name"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_calendar_event_id
+msgid "Next Activity Calendar Event"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_summary
+msgid "Next Activity Summary"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_type_id
+msgid "Next Activity Type"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__email_normalized
+msgid "Normalized Email"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_needaction_counter
+msgid "Number of Actions"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__reminder_date_before_receipt
+msgid "Number of days to send reminder email before the promised receipt date"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_has_error_counter
+msgid "Number of errors"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__message_unread_counter
+msgid "Number of unread messages"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__on_time_rate
+msgid "On-Time Delivery Rate"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__opportunity_ids
+msgid "Opportunities"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__opportunity_count
+msgid "Opportunity"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__on_time_rate
+msgid ""
+"Over the past 12 months; the number of products received on time divided by "
+"the number of ordered products."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__parent_name
+msgid "Parent name"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__partner_id
+msgid "Partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__contract_ids
+msgid "Partner Contracts"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__same_vat_partner_id
+msgid "Partner with same Tax ID"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__debit_limit
+msgid "Payable Limit"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_payment_method_id
+msgid "Payment Method"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__payment_token_count
+msgid "Payment Token Count"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__payment_token_ids
+msgid "Payment Tokens"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__phone
+msgid "Phone"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__phone_sanitized_blacklisted
+msgid "Phone Blacklisted"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__phone_mobile_search
+msgid "Phone/Mobile"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_payment_method_id
+msgid ""
+"Preferred payment method when paying this vendor. This is used to filter "
+"vendor bills by preferred payment method to register payments in mass. Use "
+"cases: create bank files for batch wires, check runs."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_product_pricelist
+msgid "Pricelist"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_book__publisher_id
+msgid "Publisher"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__purchase_line_ids
+msgid "Purchase Lines"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__purchase_warn
+msgid "Purchase Order"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__purchase_order_count
+msgid "Purchase Order Count"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__receipt_reminder_email
+msgid "Receipt Reminder"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__ref
+msgid "Reference"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__parent_id
+msgid "Related Company"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__activity_user_id
+msgid "Responsible User"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__team_id
+msgid "Sales Team"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__user_id
+msgid "Salesperson"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__phone_sanitized
+msgid "Sanitized Number"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__invoice_warn
+#: model:ir.model.fields,help:library_member.field_library_member__picking_warn
+#: model:ir.model.fields,help:library_member.field_library_member__purchase_warn
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__self
+msgid "Self"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__partner_share
+msgid "Share Partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__signup_expiration
+msgid "Signup Expiration"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__signup_token
+msgid "Signup Token"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__signup_type
+msgid "Signup Token Type"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__signup_valid
+msgid "Signup Token is Valid"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__signup_url
+msgid "Signup URL"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__state_group_id
+msgid "State Group"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__picking_warn
+msgid "Stock Picking"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__street
+msgid "Street"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__street2
+msgid "Street2"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_purchase_currency_id
+msgid "Supplier Currency"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__supplier_rank
+msgid "Supplier Rank"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__category_id
+msgid "Tags"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__vat
+msgid "Tax ID"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__vat
+msgid ""
+"The Tax Identification Number. Complete it if the contact is subjected to "
+"government taxes. Used in some legal statements."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__mapping_address
+msgid "The complete address of the partner which will be used for map view"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_account_position_id
+msgid ""
+"The fiscal position determines the taxes/accounts used for this contact."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__user_id
+msgid "The internal user in charge of this contact."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__has_unreconciled_entries
+msgid ""
+"The partner has at least one unreconciled debit and credit since last time "
+"the invoices & payments matching was performed."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_stock_customer
+msgid ""
+"The stock location used as destination when sending goods to this contact."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_stock_supplier
+msgid ""
+"The stock location used as source when receiving goods from this contact."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__dyob
+msgid ""
+"The technical field storing the partner's day of birth which is calculated "
+"based on the Date of Birth."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__mob
+msgid ""
+"The technical field storing the partner's month of birth which is calculated"
+" based on the Date of Birth."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__yob
+msgid ""
+"The technical field storing the partner's year of birth which is calculated "
+"based on the Date of Birth."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_account_payable_id
+msgid ""
+"This account will be used instead of the default one as the payable account "
+"for the current partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_account_receivable_id
+msgid ""
+"This account will be used instead of the default one as the receivable "
+"account for the current partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_purchase_currency_id
+msgid ""
+"This currency will be used, instead of the default one, for purchases from "
+"the current partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__email_normalized
+msgid ""
+"This field is used to search on email address as the primary email field can"
+" contain more than strictly an email address."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_supplier_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for purchase "
+"orders and vendor bills"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_payment_term_id
+msgid ""
+"This payment term will be used instead of the default one for sales orders "
+"and customer invoices"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__property_product_pricelist
+msgid ""
+"This pricelist will be used, instead of the default one, for sales to the "
+"current partner"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__tz
+msgid "Timezone"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__tz_offset
+msgid "Timezone offset"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__title
+msgid "Title"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__total_invoiced
+msgid "Total Invoiced"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__debit
+msgid "Total Payable"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__credit
+msgid "Total Receivable"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__credit
+msgid "Total amount this customer owes you."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__debit
+msgid "Total amount you have to pay to this vendor."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_unread
+msgid "Unread Messages"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__barcode
+msgid "Use a barcode to identify this contact."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_book__isbn
+msgid "Use a valid ISBN-13 or ISBN-10."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__user_ids
+msgid "Users"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__currency_id
+msgid "Utility field to express amount currency"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_stock_supplier
+msgid "Vendor Location"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__property_supplier_payment_term_id
+msgid "Vendor Payment Terms"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__website
+msgid "Website Link"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__website_message_ids
+msgid "Website Messages"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__website_message_ids
+msgid "Website communication history"
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,help:library_member.field_library_member__tz
+msgid ""
+"When printing documents and exporting/importing data, time values are computed according to this timezone.\n"
+"If the timezone is not set, UTC (Coordinated Universal Time) is used.\n"
+"Anywhere else, time values are computed according to the time offset of your web client."
+msgstr ""
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__yob
+msgid "Year of Birth"
+msgstr "Năm sinh"
+
+#. module: library_member
+#: model:ir.model.fields,field_description:library_member.field_library_member__zip
+msgid "Zip"
+msgstr ""

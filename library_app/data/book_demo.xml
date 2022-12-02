@@ -1,0 +1,52 @@
+<odoo>
+	<data>
+		<record id="book_product_1_demo" model="product.product">
+            <field name="name">Nhà Giả Kim</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_2"/>
+            <field name="image_1920" type="base64" file="library_app/static/description/nha_gia_kim.jpg"/>
+        </record>
+        <record id="book_product_2_demo" model="product.product">
+            <field name="name">Tuổi trẻ đáng giá bao nhiêu</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_3" />
+            <field name="image_1920" type="base64" file="library_app/static/description/tuoi_tre.jpg"/>
+        </record>
+        <record id="book_product_3_demo" model="product.product">
+            <field name="name">Dấn thân</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_4" />
+            <field name="image_1920" type="base64" file="library_app/static/description/dan_than.jpg"/>
+        </record>
+        <record id="book_product_4_demo" model="product.product">
+            <field name="name">Có phong cách riêng</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_10" />
+            <field name="image_1920" type="base64" file="library_app/static/description/phong_cach.jpg"/>
+        </record>
+        <record id="book_product_5_demo" model="product.product">
+            <field name="name">Cây chuối non đi giày xanh</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_12" />
+            <field name="image_1920" type="base64" file="library_app/static/description/cay_chuoi.jpg"/>
+        </record>
+        <record id="book_product_6_demo" model="product.product">
+            <field name="name">Nhân tố Enzyme</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_18" />
+            <field name="image_1920" type="base64" file="library_app/static/description/enzyme.jpg"/>
+        </record>
+        <record id="book_product_7_demo" model="product.product">
+            <field name="name">Đi tìm lẽ sống</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_1" />
+            <field name="image_1920" type="base64" file="library_app/static/description/di_t.jpg"/>
+        </record>
+        <record id="res_partner_address_1" model="product.product">
+            <field name="name">Người giàu có nhất thành Babylon</field>
+            <field name="is_book">True</field>
+            <field name="publisher_id" ref="base.res_partner_address_2" />
+            <field name="image_1920" type="base64" file="library_app/static/description/babylon.jpg"/>
+        </record>
+	</data>
+</odoo>

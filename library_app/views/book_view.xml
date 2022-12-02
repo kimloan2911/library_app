@@ -1,0 +1,70 @@
+<!-- <odoo>
+	<record id="view_form_book" model="ir.ui.view">
+		<field name="name">Book Form</field>
+		<field name="model">product.template</field>
+		<field name="arch" type="xml">
+			<form>
+				<header>
+					<button name="button_check_isbn" type="object"
+						string="Check ISBN" />
+				</header>
+				<sheet>
+					<widget name="web_ribbon" title="Archived"
+						bg_color="bg-danger"
+						attrs="{'invisible': [('active', '=', True)]}" />
+					<field name="image" widget="image" class="oe_avatar" />
+					<div class="oe_title">
+						<label for="name"></label>
+						<h1>
+							<field name="name"></field>
+						</h1>
+					</div>
+					<group name="group_top">
+						<group name="group_left">
+							<field name="author_ids" widget="many2many_tags" />
+							<field name="publisher_id" />
+							<field name="date_published" />
+							<field name="company_id" />
+						</group>
+						<group name="group_right">
+							<field name="isbn" />
+							<field name="active" attrs="{'invisible': 1}" />
+						</group>
+					</group>
+				</sheet>
+			</form>
+
+		</field>
+	</record>
+
+	<record id="view_tree_book" model="ir.ui.view">
+		<field name="name">Book List</field>
+		<field name="model">product.template</field>
+		<field name="arch" type="xml">
+			<tree>
+				<field name="name" />
+				<field name="author_ids" widget="many2many_tags" />
+				<field name="publisher_id" />
+				<field name="date_published" />
+				<field name="company_id" />
+			</tree>
+		</field>
+	</record>
+
+	<record id="view_search_book" model="ir.ui.view">
+		<field name="name">Book Filters</field>
+		<field name="model">product.template</field>
+		<field name="arch" type="xml">
+			<search>
+				<searchpanel>
+					<field name="company_id" />
+				</searchpanel>
+				<field name="publisher_id" />
+				<filter name="ftr_inactive" string="Archived"
+					domain="[('active','=',False)]" />
+			</search>
+		</field>
+	</record>
+
+</odoo>
+ -->
